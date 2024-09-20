@@ -1,0 +1,117 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+body{
+   
+   color: white;
+   font-weight: bold ;
+}
+.border-example {  
+   border-left: 20px solid rgb(162, 206, 129);  
+   border-right: 20px solid rgb(162, 206, 129);  
+   border-top: none;  
+   border-bottom: none;  
+
+}
+@font-face {
+   font-family: 'MyHandwritingFont'; 
+   src: url('cac_champagne.ttf') ;
+}
+@font-face {
+   font-family: 'MyFont1';
+   src: url('Didot Bold.ttf');
+}
+@font-face {
+   font-family: 'MyFont2';
+   src: url('LHFCharlotte.TTF');
+}
+nav>h2{
+   font-family: 'MyHandwritingFont'; 
+   font-size: 30pt;
+}
+nav{
+  padding: 10px;
+  text-decoration:none;
+}
+section#leftcol{
+   background-color: black;
+}
+section#leftcol>h1 {
+   font-family: 'MyHandwritingFont'; 
+   font-size: 60pt;
+   padding: 0 3%;
+   margin: 0;
+}
+section#leftcol>p{
+   padding:0 3%;
+   }
+
+aside{
+   color: white;
+ 
+}
+section#rightcol{
+   
+   background-color: rgb(111, 42, 127);
+   padding: 5% 20% 10% 10%;
+}
+a{
+   color: rgba(150, 118, 154, 0.977);
+   text-decoration: none;
+   
+}
+aside.pinkarea{
+   background-color: #cd8f81;
+   padding-right: 10px;
+}
+aside.pinkarea a{
+   text-decoration: underline;
+   color: pink;
+}
+aside h1{
+   text-align: center;
+}
+
+aside.yellowarea{
+   background-color: rgb(170, 180, 88);
+   border-right: 10px solid rgb(170, 180, 88);
+}
+aside.yellowarea>h2+p{
+   padding-left: 6%;
+}
+aside.yellowarea>h2{
+   padding-left: 2%;
+   font-size: 18px;
+}
+
+.purplearea{
+   background-color: rgb(146, 39, 146);
+}
+blockquote{
+   padding-top: 45%;
+ margin: 0;
+   color: plum;
+   font-family: 'MyFont1';
+  
+}
+header a{
+   color: rgb(231, 173, 231);
+   text-decoration: none;
+}
+header{
+   background-color: rgb(138, 77, 138);
+}
+footer{
+  background-color: rgb(117, 116, 116);
+  color: #fdfdfd;
+  font-family: 'MyFont2';padding-left: 110px;
+}
